@@ -10,4 +10,9 @@
 26. The second constructor is able to set the time at a specific time
     It does it by creating 2 NumberDisplay then you are able to set the value of them (hours and minutes)
     
-27.    
+27. Most of the code is the same for both constuctors except the last line
+    There isn't updateDisplay in the second one because it doesn't need to be updated since we are setting its time, the updateDisplay will run when the timeTick gets called
+
+28. System.out.println("+ filename");
+    
+    return status;   
