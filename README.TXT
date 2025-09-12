@@ -31,3 +31,7 @@
 32. The result of (8 % 3) is 2 (int)
 
 33. When you use the modulo operator with negative numbers the result is a negative remainder
+
+34. The possible results are any number between -4 & 4
+
+35. The posible results are any integer number that is smaller than m but doesn't go past -m
