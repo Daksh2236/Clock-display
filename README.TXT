@@ -15,4 +15,11 @@
 
 28. System.out.println("+ filename");
     
-    return status;   
+    return status;  
+
+29. Suare
+    Square
+    Triangle
+    Circle 
+    
+30. 
