@@ -17,9 +17,17 @@
     
     return status;  
 
-29. Suare
-    Square
+29. Square
     Triangle
     Circle 
     
-30. 
+30. moveHorizontal(int distance)
+    moveVertical(int Distance)
+    makeVisible()
+    changeSize(int newHeight, int newWidth) 
+    
+31. Yes the picture class does have internal methods
+
+32. The result of (8 % 3) is 2 (int)
+
+33. When you use the modulo operator with negative numbers the result is a negative remainder
