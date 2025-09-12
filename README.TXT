@@ -1,25 +1,13 @@
-Project: clock-display
-Authors: David Barnes and Michael Kölling
+21.  It starts off at 00:00 because in the constructor it does not have value to be set in the parameters
 
-This project is part of the material for the book
+23.  You would need to call the timeTick method 60 time for it to rollback and make it 01:00
+     We can also display that time by using the setTime method
+     
+24. NumberDisplay digit = new NumberDisplay(10);
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
+25. Rectangle window = new rectangle(int lenght, int sides);
 
-It is discussed in chapter 3.
-
-To use this project, create an instance of class ClockDisplay. Then inspect this 
-instance and leave the object inspector window open. With the inspector window open, 
-call the object's methods, such as timeTick and setTime. Watch the 
-"displayString" in the inspector.
-
-The displayString field simulates the actual clock display device. Were this 
-program running in a real clock, it would change the real, physical display 
-hardware instead of this string. The timeTick method would be triggered once 
-every minute by some timer hardware.
-
-Everything else could be pretty much the same.
-
-
-Note: This project does not implement adequate handling of errors.
+26. The second constructor is able to set the time at a specific time
+    It does it by creating 2 NumberDisplay then you are able to set the value of them (hours and minutes)
+    
+27.    
