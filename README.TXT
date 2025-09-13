@@ -38,3 +38,5 @@
 
 37. The option without the "pm" is the easiest because it only demands a few lines of codes
     The option with the pm is better though because it is more clear of what time of day it is
+
+53. The alternative does give the same result as the previous version
