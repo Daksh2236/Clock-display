@@ -13,7 +13,7 @@
 27. Most of the code is the same for both constuctors except the last line
     There isn't updateDisplay in the second one because it doesn't need to be updated since we are setting its time, the updateDisplay will run when the timeTick gets called
 
-28. System.out.println("+ filename");
+28. System.out.println("+ filename", true);
     
     return status;  
 
@@ -35,3 +35,6 @@
 34. The possible results are any number between -4 & 4
 
 35. The posible results are any integer number that is smaller than m but doesn't go past -m
+
+37. The option without the "pm" is the easiest because it only demands a few lines of codes
+    The option with the pm is better though because it is more clear of what time of day it is

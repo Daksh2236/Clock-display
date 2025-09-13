@@ -16,7 +16,8 @@ public class ClockDisplay
 {
     private NumberDisplay hours;
     private NumberDisplay minutes;
-    private String displayString;    // simulates the actual display
+    private String displayString;
+    // simulates the actual display
     
     /**
      * Constructor for ClockDisplay objects. This constructor 
@@ -24,7 +25,7 @@ public class ClockDisplay
      */
     public ClockDisplay()
     {
-        hours = new NumberDisplay(24);
+        hours = new NumberDisplay(13);
         minutes = new NumberDisplay(60);
         updateDisplay();
     }
@@ -36,7 +37,7 @@ public class ClockDisplay
      */
     public ClockDisplay(int hour, int minute)
     {
-        hours = new NumberDisplay(24);
+        hours = new NumberDisplay(13);
         minutes = new NumberDisplay(60);
         setTime(hour, minute);
     }
@@ -50,6 +51,9 @@ public class ClockDisplay
         minutes.increment();
         if(minutes.getValue() == 0) {
             // It just rolled over!
+            hours.increment();
+        }
+        if(hours.getValue() == 0) {
             hours.increment();
         }
         updateDisplay();
