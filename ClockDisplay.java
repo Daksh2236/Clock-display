@@ -27,6 +27,16 @@ public class ClockDisplay
     {
         hours = new NumberDisplay(13);
         minutes = new NumberDisplay(60);
+        
+        long millis = System.currentTimeMillis();
+        long seconds = millis / 1000;
+        
+        int currentMinutes = (int) (seconds / 60 % 60);
+        int currentHours = (int) (seconds / (60 * 60) % 24);
+        
+        hours.setValue(currentHours);
+        minutes.setValue(currentMinutes);
+        
         updateDisplay();
     }
 
